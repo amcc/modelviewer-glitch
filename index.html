@@ -1,0 +1,57 @@
+<! DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Modelviewer / Glitch</title>
+    <!-- Import the component -->
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,500;1,300;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <!-- Use it like any other HTML element -->
+      <model-viewer
+        alt="Modelviewer / Glitch"
+        src="https://cdn.glitch.global/145e19fe-76d0-4524-ac5d-a2f71f01d07d/donut4-nochange-processed.glb?v=1653255081959"
+        ar
+        ar-modes="webxr scene-viewer quick-look"
+        poster="assets/christmas-sun-2.png"
+        seamless-poster
+        shadow-intensity="1"
+        camera-controls
+        auto-rotate
+      ></model-viewer>
+
+      <h1>Modelviewer / Glitch</h1>
+      <section>
+        <p>How to get a model online for free:</p>
+        <ul>
+          <li>
+            Open a free Glitch account here:
+            <a href="https://glitch.com">glitch.com</a>.
+          </li>
+          <li>
+            Start a new project, then click on <strong>Assets</strong> in the
+            sidebar.
+          </li>
+          <li>Drag your glb / gltf file in to the assets.</li>
+          <li>Click on the uploaded file and <strong>Copy URL</strong>.</li>
+          <li>Paste the URL in the <strong>Media Item</strong> field.</li>
+        </ul>
+        <p>
+          Glitch isn't the only way to host your file for free - but its a very
+          good one.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

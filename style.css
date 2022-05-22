@@ -1,0 +1,32 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  margin: 2em;
+  font-weight: 300;
+}
+
+h1,
+h2 {
+  font-style: italic;
+  font-weight: 500;
+  color: #3f3f3f;
+}
+
+h2 {
+  font-weight: normal;
+}
+section {
+  margin-bottom: 3em;
+}
+p {
+  width: max(300px, 40vw);
+}
+em {
+  font-weight: 500;
+}
+
+model-viewer {
+  width: 100%;
+  height: 50vh;
+}
